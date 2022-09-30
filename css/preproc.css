@@ -1,0 +1,51 @@
+.gradient {
+  background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+}
+
+header {
+  padding: 28px 0 29px 0;
+  margin-bottom: 20px;
+}
+header li {
+  list-style: none;
+  margin-right: 30px;
+}
+header li a {
+  text-decoration: none;
+  font: 16px/20px "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+header li a:first-of-type {
+  font: 15px/20px "Gothic A1";
+}
+header li a:last-of-type {
+  font: 15px/20px "Gothic A1";
+}
+
+.main-banner .banner-text h1 {
+  font: 80px/80px "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.main-banner .banner-text p {
+  font: 30px/44px "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.main-banner .banner-text a {
+  font: 16px/26px "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 20px 40px;
+  text-decoration: none;
+  background: #FC0A7E;
+  border-radius: 3px;
+}
+
+/*# sourceMappingURL=preproc.css.map */
