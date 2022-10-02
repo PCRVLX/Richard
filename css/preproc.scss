@@ -37,7 +37,7 @@ header {
 
 .main-banner {
   .banner-image {
-    img{
+    img {
       width: 100%;
     }
   }
@@ -288,12 +288,16 @@ header {
     }
   }
 }
-.eat_card{
-  .first-card{
+
+.eat_card {
+  margin-bottom: 160px;
+
+  .first-card {
     margin-bottom: 160px;
   }
-  .eat_text{
-    span{
+
+  .eat_text {
+    span {
       font: 12px/20px $main_font;
       font-style: normal;
       font-weight: 400;
@@ -301,7 +305,8 @@ header {
       text-transform: uppercase;
       color: #A8A8A8;
     }
-    h4{
+
+    h4 {
       font: 38px/48px $main_font;
       font-style: normal;
       font-weight: 400;
@@ -309,12 +314,14 @@ header {
       margin-top: 30px;
       margin-bottom: 22px;
     }
-    p{
+
+    p {
       font: 16px/30px $main_font;
       font-style: normal;
       font-weight: 400;
       color: #6B6B6B;
-      a{
+
+      a {
         text-decoration: underline;
         font: 16px/30px $main_font;
         font-style: normal;
@@ -323,37 +330,43 @@ header {
       }
     }
   }
-  .eat_image{
-    img{
+
+  .eat_image {
+    img {
       width: 100%;
     }
   }
 }
-.reviews{
-  .reviews-img{
-    img{
-      margin-top: 160px;
+
+.reviews {
+  .reviews-img {
+    img {
       margin-bottom: 66px;
     }
   }
-  .reviews-text{
+
+  .reviews-text {
     max-width: 700px;
     margin: auto;
-    p{
+
+    p {
       font: 24px/40px $main_font;
       font-style: normal;
       font-weight: 400;
       color: #6B6B6B;
     }
   }
-  .author-name{
+
+  .author-name {
     margin-bottom: 17px;
-    .line{
+
+    .line {
       height: 1px;
       background: #D3D3D3;
       width: 30px;
     }
-    p{
+
+    p {
       font: 16px/30px $main_font;
       font-style: normal;
       font-weight: 400;
@@ -361,7 +374,8 @@ header {
       margin-right: 20px;
       margin-top: 0;
       margin-bottom: 0;
-      &:last-of-type{
+
+      &:last-of-type {
         font: 16px/30px $main_font;
         font-style: normal;
         font-weight: 700;
@@ -370,15 +384,19 @@ header {
       }
     }
   }
+
   .swiper {
+    margin-bottom: 160px;
     .swiper-button-prev {
       top: 65%;
       left: 10%;
-      &:after{
+
+      &:after {
         color: black;
         font-size: 30px;
       }
-      @include max-screen(768px){
+
+      @include max-screen(768px) {
         display: none;
       }
     }
@@ -386,27 +404,90 @@ header {
     .swiper-button-next {
       top: 65%;
       right: 10%;
-      &:after{
+
+      &:after {
         color: black;
         font-size: 30px;
       }
-      @include max-screen(768px){
+
+      @include max-screen(768px) {
         display: none;
       }
     }
-    .swiper-pagination-horizontal{
+
+    .swiper-pagination-horizontal {
       bottom: -5px;
       left: -16px;
     }
-    .swiper-pagination-bullet{
+
+    .swiper-pagination-bullet {
       height: 7px;
       width: 7px;
       background: rgba(34, 34, 34, 0.4);
       border-radius: 0;
     }
-    .swiper-pagination-bullet-active{
+
+    .swiper-pagination-bullet-active {
       background: black;
     }
   }
+  .partners {
+    margin-bottom: 118px;
+    .partners_img {
+      img {
+        width: 100%;
+      }
+    }
+  }
 }
-
+.creative{
+  margin-bottom: 1px;
+  .creative_image{
+    img{
+      width: 100%;
+    }
+  }
+}
+.get-started{
+  .waves{
+    background: linear-gradient(276.18deg, #6E28B1 0%, rgba(0, 0, 0, 0) 100%), #FC0A7E;
+    .wave_image{
+      background-image: url("../images/vector_waves.svg");
+      background-size: cover;
+      height: 472px;
+      .ready_start{
+        margin-top: 122px;
+        padding: 40px 0;
+        h5{
+          font: 38px/48px $main_font;
+          font-style: normal;
+          font-weight: 400;
+          color: #FFFFFF;
+          margin-bottom: 40px;
+        }
+        .button_link {
+          a {
+            font: 16px/26px $main_font;
+            font-style: normal;
+            font-weight: 400;
+            color: #FFFFFF;
+            padding: 20px 40px;
+            background: #FC0A7E;
+            border-radius: 3px;
+            text-decoration: none;
+            margin-right: 10px;
+            &:last-of-type{
+              font: 16px/26px $main_font;
+              font-style: normal;
+              font-weight: 400;
+              color: #FFFFFF;
+              padding: 20px 40px;
+              background: none;
+              border: 1px solid #B04BB3
+            }
+          }
+        }
+      }
+    }
+  }
+}

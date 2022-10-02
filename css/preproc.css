@@ -224,6 +224,9 @@ header li a:last-of-type {
   color: #000000;
 }
 
+.eat_card {
+  margin-bottom: 160px;
+}
 .eat_card .first-card {
   margin-bottom: 160px;
 }
@@ -261,7 +264,6 @@ header li a:last-of-type {
 }
 
 .reviews .reviews-img img {
-  margin-top: 160px;
   margin-bottom: 66px;
 }
 .reviews .reviews-text {
@@ -297,6 +299,9 @@ header li a:last-of-type {
   font-weight: 700;
   color: #6B6B6B;
   margin-left: 20px;
+}
+.reviews .swiper {
+  margin-bottom: 160px;
 }
 .reviews .swiper .swiper-button-prev {
   top: 65%;
@@ -336,6 +341,59 @@ header li a:last-of-type {
 }
 .reviews .swiper .swiper-pagination-bullet-active {
   background: black;
+}
+.reviews .partners {
+  margin-bottom: 118px;
+}
+.reviews .partners .partners_img img {
+  width: 100%;
+}
+
+.creative {
+  margin-bottom: 1px;
+}
+.creative .creative_image img {
+  width: 100%;
+}
+
+.get-started .waves {
+  background: linear-gradient(276.18deg, #6E28B1 0%, rgba(0, 0, 0, 0) 100%), #FC0A7E;
+}
+.get-started .waves .wave_image {
+  background-image: url("../images/vector_waves.svg");
+  background-size: cover;
+  height: 472px;
+}
+.get-started .waves .wave_image .ready_start {
+  margin-top: 122px;
+  padding: 40px 0;
+}
+.get-started .waves .wave_image .ready_start h5 {
+  font: 38px/48px "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+.get-started .waves .wave_image .ready_start .button_link a {
+  font: 16px/26px "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFFF;
+  padding: 20px 40px;
+  background: #FC0A7E;
+  border-radius: 3px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.get-started .waves .wave_image .ready_start .button_link a:last-of-type {
+  font: 16px/26px "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFFF;
+  padding: 20px 40px;
+  background: none;
+  border: 1px solid #B04BB3;
 }
 
 /*# sourceMappingURL=preproc.css.map */
