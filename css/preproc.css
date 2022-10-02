@@ -24,6 +24,9 @@ header li a:last-of-type {
   font: 15px/20px "Gothic A1";
 }
 
+.main-banner .banner-image img {
+  width: 100%;
+}
 .main-banner .banner-text h1 {
   font: 80px/80px "Gothic A1";
   font-style: normal;
@@ -46,6 +49,293 @@ header li a:last-of-type {
   text-decoration: none;
   background: #FC0A7E;
   border-radius: 3px;
+}
+.main-banner .arrow_down img {
+  margin-bottom: 30px;
+}
+
+.dashboard {
+  background: #1B1B1B;
+  padding-top: 100px;
+  margin-bottom: 80px;
+}
+.dashboard .dashboard_text p {
+  font: 12px/20px "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #A8A8A8;
+  margin-bottom: 30px;
+}
+.dashboard .dashboard_text h2 {
+  font: 38px/48px "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.dashboard .dash_tablet img {
+  width: 100%;
+}
+
+.recipe_example {
+  margin-bottom: 160px;
+}
+.recipe_example .recipe_description span {
+  font: 12px/20px "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #A8A8A8;
+}
+.recipe_example .recipe_description h3 {
+  font: 38px/48px "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  color: #000000;
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+.recipe_example .recipe_description p {
+  font: 16px/30px "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  color: #6B6B6B;
+}
+.recipe_example .recipe_img img {
+  width: 100%;
+}
+
+.order_example {
+  margin-bottom: 160px;
+}
+.order_example .order_img img {
+  width: 100%;
+}
+.order_example .order_description span {
+  font: 12px/20px "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #A8A8A8;
+}
+.order_example .order_description h3 {
+  font: 38px/48px "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  color: #000000;
+  margin-top: 25px;
+  margin-bottom: 27px;
+}
+.order_example .order_description p {
+  font: 16px/30px "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  color: #6B6B6B;
+}
+
+.magna_recipe {
+  margin-bottom: 159px;
+}
+.magna_recipe .magna_description span {
+  font: 12px/20px "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #A8A8A8;
+}
+.magna_recipe .magna_description h3 {
+  font: 38px/48px "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  color: #000000;
+  margin-top: 30px;
+  margin-bottom: 22px;
+}
+.magna_recipe .magna_description p {
+  font: 16px/30px "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  color: #6B6B6B;
+}
+.magna_recipe .magna_img img {
+  width: 100%;
+}
+
+.advantages {
+  padding-bottom: 3px;
+}
+.advantages .first-list {
+  margin-bottom: 160px;
+}
+.advantages .advantage {
+  padding: 0 5px;
+}
+.advantages .advantage a {
+  text-decoration: none;
+}
+.advantages .advantage:hover {
+  border-radius: 10px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  transform: scale(1.1);
+}
+@media screen and (max-width: 768px) {
+  .advantages .advantage:hover {
+    transform: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
+.advantages .advantage img {
+  margin-bottom: 40px;
+}
+.advantages .advantage h4 {
+  font: 18px/24px "Gothic A1";
+  font-style: normal;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 17px;
+}
+.advantages .advantage p {
+  font: 16px/30px "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  color: #6B6B6B;
+}
+.advantages .second-list {
+  margin-bottom: 160px;
+}
+.advantages .second-list .advantage_second h5 {
+  font: 59px/90px "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  color: #333333;
+  margin-bottom: 10px;
+}
+.advantages .second-list .advantage_second p {
+  font: 18px/24px "Gothic A1";
+  font-style: normal;
+  font-weight: 700;
+  color: #000000;
+}
+
+.eat_card .first-card {
+  margin-bottom: 160px;
+}
+.eat_card .eat_text span {
+  font: 12px/20px "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #A8A8A8;
+}
+.eat_card .eat_text h4 {
+  font: 38px/48px "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  color: #000000;
+  margin-top: 30px;
+  margin-bottom: 22px;
+}
+.eat_card .eat_text p {
+  font: 16px/30px "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  color: #6B6B6B;
+}
+.eat_card .eat_text p a {
+  text-decoration: underline;
+  font: 16px/30px "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  color: black;
+}
+.eat_card .eat_image img {
+  width: 100%;
+}
+
+.reviews .reviews-img img {
+  margin-top: 160px;
+  margin-bottom: 66px;
+}
+.reviews .reviews-text {
+  max-width: 700px;
+  margin: auto;
+}
+.reviews .reviews-text p {
+  font: 24px/40px "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  color: #6B6B6B;
+}
+.reviews .author-name {
+  margin-bottom: 17px;
+}
+.reviews .author-name .line {
+  height: 1px;
+  background: #D3D3D3;
+  width: 30px;
+}
+.reviews .author-name p {
+  font: 16px/30px "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  color: #6B6B6B;
+  margin-right: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.reviews .author-name p:last-of-type {
+  font: 16px/30px "Gothic A1";
+  font-style: normal;
+  font-weight: 700;
+  color: #6B6B6B;
+  margin-left: 20px;
+}
+.reviews .swiper .swiper-button-prev {
+  top: 65%;
+  left: 10%;
+}
+.reviews .swiper .swiper-button-prev:after {
+  color: black;
+  font-size: 30px;
+}
+@media screen and (max-width: 768px) {
+  .reviews .swiper .swiper-button-prev {
+    display: none;
+  }
+}
+.reviews .swiper .swiper-button-next {
+  top: 65%;
+  right: 10%;
+}
+.reviews .swiper .swiper-button-next:after {
+  color: black;
+  font-size: 30px;
+}
+@media screen and (max-width: 768px) {
+  .reviews .swiper .swiper-button-next {
+    display: none;
+  }
+}
+.reviews .swiper .swiper-pagination-horizontal {
+  bottom: -5px;
+  left: -16px;
+}
+.reviews .swiper .swiper-pagination-bullet {
+  height: 7px;
+  width: 7px;
+  background: rgba(34, 34, 34, 0.4);
+  border-radius: 0;
+}
+.reviews .swiper .swiper-pagination-bullet-active {
+  background: black;
 }
 
 /*# sourceMappingURL=preproc.css.map */

@@ -18,37 +18,286 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </head>
 <body>
 <section class="gradient">
-<header class="container d-flex align-items-center justify-content-between">
-    <a href="#" class="logo">
-        <img src="images/logo.svg" alt="logo">
-    </a>
-    <div class="nav">
-        <ul class="d-flex align-items-center">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">How to Use</a></li>
-            <li><a href="#">Download</a></li>
-        </ul>
-    </div>
-</header>
+    <header class="container d-flex align-items-center justify-content-between">
+        <a href="#" class="logo">
+            <img src="images/logo.svg" alt="logo">
+        </a>
+        <div class="nav">
+            <ul class="d-flex align-items-center">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">How to Use</a></li>
+                <li><a href="#">Download</a></li>
+            </ul>
+        </div>
+    </header>
     <div class="container main-banner">
-        <div class="row">
-            <div class="col-lg-6">
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-6 flex-column">
                 <div class="banner-text">
-                <h1>Momentum</h1>
-                <p>Launch your product — and savor the momentum.</p>
-                <a href="#">Get the App</a>
+                    <h1>Momentum</h1>
+                    <p>Launch your product — and savor the momentum.</p>
+                    <a href="#">Get the App</a>
                 </div>
             </div>
-            <div class="col-lg-6">
-            <div class="banner-image">
-                <img src="images/app.png" alt="app">
-            </div>
+            <div class="col-12 col-lg-6 flex-column">
+                <div class="banner-image">
+                    <img src="images/app.png" alt="app">
+                </div>
             </div>
         </div>
+        <div class="arrow_down text-center">
+            <a href="#start"><img src="images/arrow.svg" alt="arrow"></a>
+        </div>
+    </div>
+</section>
+<section id="start" class="dashboard">
+    <div class="dashboard_text text-center">
+        <p>Aenean Consectetur Porta</p>
+        <h2>Nullam quis risus eget urna mollis<br> ornare vel eu leo.</h2>
+    </div>
+    <div class="container dash_tablet">
+        <div class="row">
+            <div class="col-12">
+                <div class="img_tablet">
+                    <img src="images/img_tablet.png" alt="tablet">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="recipe_example scrollflow -opacity -slide-top">
+    <div class="container m-auto">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-12 col-lg-4 flex-column">
+                <div class="recipe_description">
+                    <span>Aenean Consectetur</span>
+                    <h3>s</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                        elementum tristique.</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 flex-column">
+                <div class="recipe_img">
+                    <img src="images/recipe_img.png" alt="img">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="order_example scrollflow -opacity -slide-top">
+    <div class="container m-auto">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-12 col-lg-6 flex-column">
+                <div class="order_img">
+                    <img src="images/order_img.png" alt="img">
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 flex-column">
+                <div class="order_description">
+                    <span>ConsectUltricies</span>
+                    <h3>Amet Ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                        elementum tristique.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="magna_recipe scrollflow -opacity -slide-top">
+    <div class="container m-auto">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-12 col-lg-4 flex-column">
+                <div class="magna_description">
+                    <span>Aenean Consectetur Porta</span>
+                    <h3>Magna Porta Sit Bibendum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                        elementum tristique.</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 flex-column">
+                <div class="magna_img">
+                    <img src="images/magna_recipe.png" alt="img">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="advantages scrollflow -opacity -slide-top">
+    <div class="container m-auto">
+        <div class="row justify-content-between first-list">
+            <div class="col-12 col-lg-4">
+                <div class="advantage text-center">
+                    <a href="#">
+                        <img src="images/burger.png" alt="img">
+                        <h4>Activity Notifications</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                            elementum tristique.</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="advantage text-center">
+                    <a href="#">
+                        <img src="images/spoon.png" alt="img">
+                        <h4>Custom Timing</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                            elementum tristique.</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="advantage text-center">
+                    <a href="#">
+                        <img src="images/signal.png" alt="img">
+                        <h4>Mobile Optimized</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                            elementum tristique.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-between second-list">
+            <div class="col-12 col-lg-3">
+                <div class="advantage_second text-center">
+                    <h5>+12k</h5>
+                    <p>Nibh Elit Tristique</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3">
+                <div class="advantage_second text-center">
+                    <h5>84</h5>
+                    <p>Aenean Condimentum</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3">
+                <div class="advantage_second text-center">
+                    <h5>3,07</h5>
+                    <p>Quam Inceptos</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3">
+                <div class="advantage_second text-center">
+                    <h5>24h</h5>
+                    <p>Ullamcorper</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="eat_card scrollflow -opacity -slide-top">
+    <div class="container m-auto">
+        <div class="row justify-content-between first-card">
+            <div class="col-12 col-lg-4">
+                <div class="eat_text">
+                    <span>Aenean Consectetur Porta</span>
+                    <h4>Sem Risus Elit Vestibulum</h4>
+                    <p>Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat
+                        porttitor ligula, eget lacinia odio sem nec elit. <a href="#">Cras mattis consectetur</a> purus
+                        sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada
+                        magna mollis euismod.</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="eat_image">
+                    <img src="images/hamburger.png" alt="img">
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-between second-card">
+            <div class="col-12 col-lg-6">
+                <div class="eat_image">
+                    <img src="images/salad.png" alt="img">
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="eat_text">
+                    <span>Aenean Consectetur Porta</span>
+                    <h4>Parturient Tortor</h4>
+                    <p>Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat
+                        porttitor ligula, eget lacinia odio sem nec elit. <a href="#">Cras mattis consectetur</a> purus
+                        sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada
+                        magna mollis euismod.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="reviews scrollflow -opacity -slide-top">
+    <div class="container m-auto">
+      <div class="row">
+          <div class="col-12 m-auto">
+              <div class="swiper">
+                  <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                          <div class="reviews-img text-center">
+                          <img src="images/tchk.png" alt="img">
+                          </div>
+                          <div class="reviews-text text-center">
+                              <p>HeadNulla vitae elit libero, a pharetra augue. Duis mollis, est<br> non commodo luctus, nisi erat porttitor ligula, eget lacinia odio<br> sem nec elit. Pus sit amet fermentum. Donec id elit non mi porta<br> gravida at eget metus. Etiam porta sem malesuada magna<br> mollis euismod.ing</p>
+                          </div>
+                          <div class="author-name d-flex align-items-center justify-content-center">
+                              <p>Joshua Home</p>
+                              <span class="line"></span>
+                              <p>New York Times</p>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="reviews-img text-center">
+                              <img src="images/tchk.png" alt="img">
+                          </div>
+                          <div class="reviews-text text-center">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis deserunt eos, ipsam iusto magni minus nemo nesciunt nostrum officiis voluptatum? Asperiores magni minima nemo nobis quos ratione velit voluptate voluptatum?</p>
+                          </div>
+                          <div class="author-name d-flex align-items-center justify-content-center">
+                              <p>Joshua Home</p>
+                              <span class="line"></span>
+                              <p>New York Times</p>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="reviews-img text-center">
+                              <img src="images/tchk.png" alt="img">
+                          </div>
+                          <div class="reviews-text text-center">
+                              <p>HeadNulla vitae elit libero, a pharetra augue. Duis mollis, est<br> non commodo luctus, nisi erat porttitor ligula, eget lacinia odio<br> sem nec elit. Pus sit amet fermentum. Donec id elit non mi porta<br> gravida at eget metus. Etiam porta sem malesuada magna<br> mollis euismod.ing</p>
+                          </div>
+                          <div class="author-name d-flex align-items-center justify-content-center">
+                              <p>Joshua Home</p>
+                              <span class="line"></span>
+                              <p>New York Times</p>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="reviews-img text-center">
+                              <img src="images/tchk.png" alt="img">
+                          </div>
+                          <div class="reviews-text text-center">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda aut error et ipsam iure natus possimus sapiente! Aperiam fugit hic iure neque pariatur ut? Aspernatur.</p>
+                          </div>
+                          <div class="author-name d-flex align-items-center justify-content-center">
+                              <p>Joshua Home</p>
+                              <span class="line"></span>
+                              <p>New York Times</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-pagination"></div>
+              </div>
+          </div>
+      </div>
     </div>
 
 </section>
@@ -56,18 +305,13 @@
 
 
 
-
-
-
-
-
-
 <script src="https://kit.fontawesome.com/f580bbaecd.js" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js" integrity="sha256-xLD7nhI62fcsEZK2/v8LsBcb4lG7dgULkuXoXB/j91c=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"
+        integrity="sha256-xLD7nhI62fcsEZK2/v8LsBcb4lG7dgULkuXoXB/j91c=" crossorigin="anonymous"></script>
 <script src="js/bootstrap_js/bootstrap.js"></script>
 <script src="js/script.js"></script>
 <script src="js/scrollflow.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </body>
 </html>
