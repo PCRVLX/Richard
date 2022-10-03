@@ -387,6 +387,7 @@ header {
 
   .swiper {
     margin-bottom: 160px;
+
     .swiper-button-prev {
       top: 65%;
       left: 10%;
@@ -431,8 +432,10 @@ header {
       background: black;
     }
   }
+
   .partners {
     margin-bottom: 118px;
+
     .partners_img {
       img {
         width: 100%;
@@ -440,31 +443,38 @@ header {
     }
   }
 }
-.creative{
+
+.creative {
   margin-bottom: 1px;
-  .creative_image{
-    img{
+
+  .creative_image {
+    img {
       width: 100%;
     }
   }
 }
-.get-started{
-  .waves{
+
+.get-started {
+  .waves {
     background: linear-gradient(276.18deg, #6E28B1 0%, rgba(0, 0, 0, 0) 100%), #FC0A7E;
-    .wave_image{
+
+    .wave_image {
       background-image: url("../images/vector_waves.svg");
       background-size: cover;
       height: 472px;
-      .ready_start{
+
+      .ready_start {
         margin-top: 122px;
         padding: 40px 0;
-        h5{
+
+        h5 {
           font: 38px/48px $main_font;
           font-style: normal;
           font-weight: 400;
           color: #FFFFFF;
           margin-bottom: 40px;
         }
+
         .button_link {
           a {
             font: 16px/26px $main_font;
@@ -472,21 +482,92 @@ header {
             font-weight: 400;
             color: #FFFFFF;
             padding: 20px 40px;
-            background: #FC0A7E;
+            background: linear-gradient(to right, #FC0A7E 0%, rgba(0, 0, 0, 0) 100%), #6E28B1;
             border-radius: 3px;
             text-decoration: none;
             margin-right: 10px;
-            &:last-of-type{
+            transition: all .4s ease-in-out;
+            cursor: pointer;
+            background-size: 300% 100%;
+
+            &:focus {
+              outline: none;
+            }
+
+            &:hover {
+              background-position: 100% 0;
+              transition: all .4s ease-in-out;
+              @include max-screen(768px) {
+                background-position: 0 0;
+                transition: none;
+              }
+            }
+
+            &:last-of-type {
               font: 16px/26px $main_font;
               font-style: normal;
               font-weight: 400;
               color: #FFFFFF;
               padding: 20px 40px;
               background: none;
-              border: 1px solid #B04BB3
+              border: 1px solid #B04BB3;
+
+              &:hover {
+                animation: pulse 1s;
+                box-shadow: #FFFFFF;
+                background: linear-gradient(to right, #FC0A7E 0%, rgba(0, 0, 0, 0) 100%), #6E28B1;
+                @include max-screen(768px) {
+                  animation: none;
+                  box-shadow: none;
+                  background: none;
+                }
+              }
             }
           }
         }
+      }
+    }
+  }
+}
+
+.updates_richard{
+  background: #1B1B1B;
+  padding-top: 129px;
+  .get_update{
+    h5{
+      font: 38px/48px $main_font;
+      font-style: normal;
+      font-weight: 400;
+      color: #FFFFFF;
+      margin-bottom: 20px;
+    }
+    span{
+      font: 16px/30px $main_font;
+      font-style: normal;
+      font-weight: 400;
+      color: #6B6B6B;
+    }
+  }
+  .form {
+    input {
+      font: 16px/26px $main_font;
+      font-style: normal;
+      font-weight: 400;
+      text-align: center;
+      height: 70px;
+      background: #FFFFFF;
+      box-shadow: 0 0 0 #FC0A7E;
+      border-radius: 3px 0 0 3px;
+    }
+    .input-group-append {
+      .btn {
+        padding: 22px 0;
+        font: 16px/26px $main_font;
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        background: #FC0A7E;
+        border-radius: 0 3px 3px 0;
       }
     }
   }

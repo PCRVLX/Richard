@@ -381,10 +381,26 @@ header li a:last-of-type {
   font-weight: 400;
   color: #FFFFFF;
   padding: 20px 40px;
-  background: #FC0A7E;
+  background: linear-gradient(to right, #FC0A7E 0%, rgba(0, 0, 0, 0) 100%), #6E28B1;
   border-radius: 3px;
   text-decoration: none;
   margin-right: 10px;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+  background-size: 300% 100%;
+}
+.get-started .waves .wave_image .ready_start .button_link a:focus {
+  outline: none;
+}
+.get-started .waves .wave_image .ready_start .button_link a:hover {
+  background-position: 100% 0;
+  transition: all 0.4s ease-in-out;
+}
+@media screen and (max-width: 768px) {
+  .get-started .waves .wave_image .ready_start .button_link a:hover {
+    background-position: 0 0;
+    transition: none;
+  }
 }
 .get-started .waves .wave_image .ready_start .button_link a:last-of-type {
   font: 16px/26px "Gothic A1";
@@ -394,6 +410,55 @@ header li a:last-of-type {
   padding: 20px 40px;
   background: none;
   border: 1px solid #B04BB3;
+}
+.get-started .waves .wave_image .ready_start .button_link a:last-of-type:hover {
+  animation: pulse 1s;
+  box-shadow: #FFFFFF;
+  background: linear-gradient(to right, #FC0A7E 0%, rgba(0, 0, 0, 0) 100%), #6E28B1;
+}
+@media screen and (max-width: 768px) {
+  .get-started .waves .wave_image .ready_start .button_link a:last-of-type:hover {
+    animation: none;
+    box-shadow: none;
+    background: none;
+  }
+}
+
+.updates_richard {
+  background: #1B1B1B;
+  padding-top: 129px;
+}
+.updates_richard .get_update h5 {
+  font: 38px/48px "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.updates_richard .get_update span {
+  font: 16px/30px "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  color: #6B6B6B;
+}
+.updates_richard .form input {
+  font: 16px/26px "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  height: 70px;
+  background: #FFFFFF;
+  box-shadow: 0 0 0 #FC0A7E;
+  border-radius: 3px 0 0 3px;
+}
+.updates_richard .form .input-group-append .btn {
+  padding: 22px 0;
+  font: 16px/26px "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  background: #FC0A7E;
+  border-radius: 0 3px 3px 0;
 }
 
 /*# sourceMappingURL=preproc.css.map */
