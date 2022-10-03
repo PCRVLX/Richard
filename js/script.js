@@ -20,3 +20,7 @@ const swiper = new Swiper('.swiper', {
         onlyInViewport: false,
     },
 });
+$('.hamburger').on('click', function(){
+    $(this).toggleClass('is-active');
+    $('.header__menu').toggleClass('is-active');
+ });
