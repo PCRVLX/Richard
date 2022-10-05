@@ -52,7 +52,7 @@
   text-decoration: none;
   margin: 0 0 0 30px;
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 885px) {
   .header__list li a {
     font: 13px/20px "Gothic A1";
   }
@@ -66,7 +66,7 @@
   text-decoration: none;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 885px) {
   .header__body {
     height: 50px;
     overflow: hidden;
@@ -112,7 +112,7 @@
   width: 100%;
   height: 100vh;
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 885px) {
   .main-banner .banner-image img {
     margin-top: 100px;
     height: auto;
@@ -124,11 +124,26 @@
   font-weight: 400;
   color: #FFFFFF;
 }
+@media screen and (max-width: 428px) {
+  .main-banner .banner-text h1 {
+    font: 67px/80px "Gothic A1";
+  }
+}
+@media screen and (max-width: 321px) {
+  .main-banner .banner-text h1 {
+    font: 57px/80px "Gothic A1";
+  }
+}
 .main-banner .banner-text p {
   font: 30px/44px "Gothic A1";
   font-style: normal;
   font-weight: 400;
   color: #FFFFFF;
+}
+@media screen and (max-width: 321px) {
+  .main-banner .banner-text p {
+    font: 24px/44px "Gothic A1";
+  }
 }
 .main-banner .banner-text a {
   font: 16px/26px "Gothic A1";
@@ -146,7 +161,7 @@
   box-shadow: #FFFFFF;
   background: linear-gradient(to right, #FC0A7E 0%, rgba(0, 0, 0, 0) 100%), #6E28B1;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 885px) {
   .main-banner .banner-text a:hover {
     animation: none;
     box-shadow: none;
@@ -276,7 +291,7 @@
 .advantages .first-list {
   margin-bottom: 160px;
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 885px) {
   .advantages .first-list {
     margin-bottom: 100px;
   }
@@ -292,7 +307,7 @@
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   transform: scale(1.1);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 885px) {
   .advantages .advantage:hover {
     transform: none;
     border-radius: 0;
@@ -335,7 +350,7 @@
 .eat_card {
   margin-bottom: 160px;
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 885px) {
   .eat_card {
     margin-bottom: 100px;
   }
@@ -389,6 +404,16 @@
   font-weight: 400;
   color: #6B6B6B;
 }
+@media screen and (max-width: 428px) {
+  .reviews .reviews-text p {
+    font: 11px/25px "Gothic A1";
+  }
+}
+@media screen and (max-width: 321px) {
+  .reviews .reviews-text p {
+    font: 10px/19px "Gothic A1";
+  }
+}
 .reviews .author-name {
   margin-bottom: 17px;
 }
@@ -406,6 +431,11 @@
   margin-top: 0;
   margin-bottom: 0;
 }
+@media screen and (max-width: 428px) {
+  .reviews .author-name p {
+    font: 13px/30px "Gothic A1";
+  }
+}
 .reviews .author-name p:last-of-type {
   font: 16px/30px "Gothic A1";
   font-style: normal;
@@ -413,8 +443,18 @@
   color: #6B6B6B;
   margin-left: 20px;
 }
+@media screen and (max-width: 428px) {
+  .reviews .author-name p:last-of-type {
+    font: 13px/30px "Gothic A1";
+  }
+}
 .reviews .swiper {
   margin-bottom: 160px;
+}
+@media screen and (max-width: 428px) {
+  .reviews .swiper {
+    margin-bottom: 100px;
+  }
 }
 .reviews .swiper .swiper-button-prev {
   top: 65%;
@@ -424,7 +464,7 @@
   color: black;
   font-size: 30px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 885px) {
   .reviews .swiper .swiper-button-prev {
     display: none;
   }
@@ -437,7 +477,7 @@
   color: black;
   font-size: 30px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 885px) {
   .reviews .swiper .swiper-button-next {
     display: none;
   }
@@ -502,6 +542,11 @@
   cursor: pointer;
   background-size: 300% 100%;
 }
+@media screen and (max-width: 428px) {
+  .get-started .waves .wave_image .ready_start .button_link a {
+    padding: 20px 20px;
+  }
+}
 .get-started .waves .wave_image .ready_start .button_link a:focus {
   outline: none;
 }
@@ -509,7 +554,7 @@
   background-position: 100% 0;
   transition: all 0.4s ease-in-out;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 885px) {
   .get-started .waves .wave_image .ready_start .button_link a:hover {
     background-position: 0 0;
     transition: none;
@@ -524,12 +569,17 @@
   background: none;
   border: 1px solid #B04BB3;
 }
+@media screen and (max-width: 428px) {
+  .get-started .waves .wave_image .ready_start .button_link a:last-of-type {
+    padding: 20px 20px;
+  }
+}
 .get-started .waves .wave_image .ready_start .button_link a:last-of-type:hover {
   animation: pulse 1s;
   box-shadow: #FFFFFF;
   background: linear-gradient(to right, #FC0A7E 0%, rgba(0, 0, 0, 0) 100%), #6E28B1;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 885px) {
   .get-started .waves .wave_image .ready_start .button_link a:last-of-type:hover {
     animation: none;
     box-shadow: none;
@@ -549,7 +599,7 @@
   color: #FFFFFF;
   margin-bottom: 20px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 885px) {
   .updates_richard .get_update h5 {
     font: 30px/48px "Gothic A1";
     margin-bottom: 10px;
@@ -561,7 +611,7 @@
   font-weight: 400;
   color: #6B6B6B;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 885px) {
   .updates_richard .get_update span {
     font: 12px/30px "Gothic A1";
   }
@@ -636,7 +686,7 @@ footer .low_logo img:hover {
   transform: scale(1.5);
   transition: transform 1s ease-out;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 885px) {
   footer .low_logo img:hover {
     transform: none;
     transition: none;
@@ -654,6 +704,11 @@ footer .list a {
   font-style: normal;
   font-weight: 400;
   color: #6B6B6B;
+}
+@media screen and (max-width: 428px) {
+  footer .list a {
+    font: 8px/20px "Gothic A1";
+  }
 }
 footer .list a:hover {
   color: #FC0A7E;

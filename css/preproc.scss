@@ -79,7 +79,7 @@ $main_font: 'Gothic A1';
       color: #FFFFFF;
       text-decoration: none;
       margin: 0 0 0 30px;
-      @include max-screen(769px){
+      @include max-screen(885px){
         font: 13px/20px $main_font;
       }
     }
@@ -94,7 +94,7 @@ $main_font: 'Gothic A1';
   text-decoration: none;
 }
 
-@include max-screen(767px) {
+@include max-screen(885px) {
   .header__body {
     height: 50px;
     overflow: hidden;
@@ -146,7 +146,7 @@ $main_font: 'Gothic A1';
     img {
       width: 100%;
       height: 100vh;
-      @include max-screen(769px){
+      @include max-screen(885px){
         margin-top: 100px;
         height: auto;
       }
@@ -159,6 +159,12 @@ $main_font: 'Gothic A1';
       font-style: normal;
       font-weight: 400;
       color: #FFFFFF;
+      @include max-screen(428px){
+        font: 67px/80px "Gothic A1";
+      }
+      @include max-screen(321px){
+        font: 57px/80px "Gothic A1";
+      }
     }
 
     p {
@@ -166,6 +172,9 @@ $main_font: 'Gothic A1';
       font-style: normal;
       font-weight: 400;
       color: #FFFFFF;
+      @include max-screen(321px){
+        font: 24px/44px "Gothic A1";
+      }
     }
 
     a {
@@ -183,7 +192,7 @@ $main_font: 'Gothic A1';
         animation: pulse 1s;
         box-shadow: #FFFFFF;
         background: linear-gradient(to right, #FC0A7E 0%, rgba(0, 0, 0, 0) 100%), #6E28B1;
-        @include max-screen(768px) {
+        @include max-screen(885px) {
           animation: none;
           box-shadow: none;
           background: none;
@@ -348,7 +357,7 @@ $main_font: 'Gothic A1';
 
   .first-list {
     margin-bottom: 160px;
-    @include max-screen(769px){
+    @include max-screen(885px){
       margin-bottom: 100px;
     }
   }
@@ -364,7 +373,7 @@ $main_font: 'Gothic A1';
       border-radius: 10px;
       box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
       transform: scale(1.1);
-      @include max-screen(768px) {
+      @include max-screen(885px) {
         transform: none;
         border-radius: 0;
         box-shadow: none;
@@ -416,7 +425,7 @@ $main_font: 'Gothic A1';
 
 .eat_card {
   margin-bottom: 160px;
-  @include max-screen(769px){
+  @include max-screen(885px){
     margin-bottom: 100px;
   }
 
@@ -482,6 +491,12 @@ $main_font: 'Gothic A1';
       font-style: normal;
       font-weight: 400;
       color: #6B6B6B;
+      @include max-screen(428px){
+        font: 11px/25px "Gothic A1";
+      }
+      @include max-screen(321px){
+        font: 10px/19px "Gothic A1";
+      }
     }
   }
 
@@ -502,6 +517,9 @@ $main_font: 'Gothic A1';
       margin-right: 20px;
       margin-top: 0;
       margin-bottom: 0;
+      @include max-screen(428px){
+        font: 13px/30px "Gothic A1";
+      }
 
       &:last-of-type {
         font: 16px/30px $main_font;
@@ -509,12 +527,18 @@ $main_font: 'Gothic A1';
         font-weight: 700;
         color: #6B6B6B;
         margin-left: 20px;
+        @include max-screen(428px){
+          font: 13px/30px "Gothic A1";
+        }
       }
     }
   }
 
   .swiper {
     margin-bottom: 160px;
+    @include max-screen(428px){
+      margin-bottom: 100px;
+    }
 
     .swiper-button-prev {
       top: 65%;
@@ -525,7 +549,7 @@ $main_font: 'Gothic A1';
         font-size: 30px;
       }
 
-      @include max-screen(768px) {
+      @include max-screen(885px) {
         display: none;
       }
     }
@@ -539,7 +563,7 @@ $main_font: 'Gothic A1';
         font-size: 30px;
       }
 
-      @include max-screen(768px) {
+      @include max-screen(885px) {
         display: none;
       }
     }
@@ -617,6 +641,9 @@ $main_font: 'Gothic A1';
             transition: all .4s ease-in-out;
             cursor: pointer;
             background-size: 300% 100%;
+            @include max-screen(428px){
+              padding: 20px 20px;
+            }
 
             &:focus {
               outline: none;
@@ -625,7 +652,7 @@ $main_font: 'Gothic A1';
             &:hover {
               background-position: 100% 0;
               transition: all .4s ease-in-out;
-              @include max-screen(768px) {
+              @include max-screen(885px) {
                 background-position: 0 0;
                 transition: none;
               }
@@ -639,12 +666,15 @@ $main_font: 'Gothic A1';
               padding: 20px 40px;
               background: none;
               border: 1px solid #B04BB3;
+              @include max-screen(428px){
+                padding: 20px 20px;
+              }
 
               &:hover {
                 animation: pulse 1s;
                 box-shadow: #FFFFFF;
                 background: linear-gradient(to right, #FC0A7E 0%, rgba(0, 0, 0, 0) 100%), #6E28B1;
-                @include max-screen(768px) {
+                @include max-screen(885px) {
                   animation: none;
                   box-shadow: none;
                   background: none;
@@ -670,7 +700,7 @@ $main_font: 'Gothic A1';
       font-weight: 400;
       color: #FFFFFF;
       margin-bottom: 20px;
-      @include max-screen(768px){
+      @include max-screen(885px){
         font: 30px/48px "Gothic A1";
         margin-bottom: 10px;
       }
@@ -681,7 +711,7 @@ $main_font: 'Gothic A1';
       font-style: normal;
       font-weight: 400;
       color: #6B6B6B;
-      @include max-screen(768px){
+      @include max-screen(885px){
         font: 12px/30px $main_font;
       }
     }
@@ -739,7 +769,7 @@ footer {
       &:hover {
         transform: scale(1.5);
         transition: transform 1s ease-out;
-        @include max-screen(768px) {
+        @include max-screen(885px) {
           transform: none;
           transition: none;
         }
@@ -760,6 +790,9 @@ footer {
       font-style: normal;
       font-weight: 400;
       color: #6B6B6B;
+      @include max-screen(428px){
+        font: 8px/20px "Gothic A1";
+      }
 
       &:hover {
         color: #FC0A7E;
