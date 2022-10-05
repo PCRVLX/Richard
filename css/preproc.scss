@@ -79,6 +79,9 @@ $main_font: 'Gothic A1';
       color: #FFFFFF;
       text-decoration: none;
       margin: 0 0 0 30px;
+      @include max-screen(769px){
+        font: 13px/20px $main_font;
+      }
     }
   }
 }
@@ -143,6 +146,10 @@ $main_font: 'Gothic A1';
     img {
       width: 100%;
       height: 100vh;
+      @include max-screen(769px){
+        margin-top: 100px;
+        height: auto;
+      }
     }
   }
 
@@ -341,6 +348,9 @@ $main_font: 'Gothic A1';
 
   .first-list {
     margin-bottom: 160px;
+    @include max-screen(769px){
+      margin-bottom: 100px;
+    }
   }
 
   .advantage {
@@ -406,6 +416,9 @@ $main_font: 'Gothic A1';
 
 .eat_card {
   margin-bottom: 160px;
+  @include max-screen(769px){
+    margin-bottom: 100px;
+  }
 
   .first-card {
     margin-bottom: 160px;
@@ -657,6 +670,10 @@ $main_font: 'Gothic A1';
       font-weight: 400;
       color: #FFFFFF;
       margin-bottom: 20px;
+      @include max-screen(768px){
+        font: 30px/48px "Gothic A1";
+        margin-bottom: 10px;
+      }
     }
 
     span {
@@ -664,6 +681,9 @@ $main_font: 'Gothic A1';
       font-style: normal;
       font-weight: 400;
       color: #6B6B6B;
+      @include max-screen(768px){
+        font: 12px/30px $main_font;
+      }
     }
   }
 
@@ -691,7 +711,7 @@ $main_font: 'Gothic A1';
 
     .input-group-append {
       .btn {
-        padding: 22px 0;
+        padding: 22px 10px;
         font: 16px/26px $main_font;
         font-style: normal;
         font-weight: 400;
@@ -699,7 +719,7 @@ $main_font: 'Gothic A1';
         background: #FC0A7E;
         border-radius: 0 3px 3px 0;
         height: 70px;
-        width: 154px;
+        max-width: 154px;
 
         &:focus, :active, :hover {
           box-shadow: none;
@@ -739,8 +759,6 @@ footer {
       font: 11px/20px $main_font;
       font-style: normal;
       font-weight: 400;
-      font-size: 11px;
-      line-height: 20px;
       color: #6B6B6B;
 
       &:hover {
